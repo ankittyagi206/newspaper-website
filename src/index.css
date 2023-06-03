@@ -234,3 +234,7 @@ body {
     transform: translateX(calc(-100% - 34px));
   }
 }
+
+html {
+  overscroll-behavior-y: none;
+}
