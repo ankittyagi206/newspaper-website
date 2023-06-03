@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import { gsap } from "gsap";
 import { useRef, useLayoutEffect } from "react";
@@ -27,6 +28,12 @@ function App() {
     });
     return () => {
       // cleanup code (optional)
+      tt.to(comp.current, {
+        y: "0vh",
+        rotate: 360,
+        scale: 1,
+        duration: 0.8,
+      });
     };
   }, []);
 
@@ -80,6 +87,8 @@ function App() {
           </p>
         </div>
       </div>
+      <Contact />
+      <div style={{ height: "100px" }}></div>
     </div>
   );
 }

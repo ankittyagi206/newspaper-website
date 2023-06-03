@@ -194,3 +194,43 @@ body {
   background-color: #222;
   overflow: hidden;
 }
+
+.contact {
+  padding: 30px 0px;
+  background-color: #c4bcb2;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+.contact::-webkit-scrollbar {
+  display: none;
+}
+.contact h4 {
+  font-size: 100px;
+  font-family: Domain;
+  font-weight: 100;
+  display: inline-block;
+  margin-right: 30px;
+  animation: scrollAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.contact h4 span {
+  font-family: Canopee;
+  background-color: #222;
+  color: #c4bcb2;
+  padding: 0px 20px;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 34px));
+  }
+}
