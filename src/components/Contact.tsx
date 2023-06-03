@@ -3,13 +3,13 @@ const Contact = () => {
   return (
     <div className="contact">
       <h4>
-        Let's create something together <span>EMAIL ME</span>
+        ⚠️ Work in Progress <span>EMAIL ME</span>
       </h4>
       <h4>
-        Let's create something together <span>EMAIL ME</span>
+        ⚠️ Work in Progress <span>EMAIL ME</span>
       </h4>
       <h4>
-        Let's create something together <span>EMAIL ME</span>
+        ⚠️ Work in Progress <span>EMAIL ME</span>
       </h4>
     </div>
   );
