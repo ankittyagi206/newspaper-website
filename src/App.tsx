@@ -15,7 +15,7 @@ function App() {
       duration: 0,
     });
     tt.to(comp.current, {
-      y: "30vh",
+      y: "60vh",
       duration: 1,
       delay: 1,
     });
